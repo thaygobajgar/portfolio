@@ -64,11 +64,11 @@ export const Home = (): JSX.Element => {
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
-                See Projects
+                Ver Projetos
               </Button>
-              <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
+              {/* <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
                 See my portfolio source code
-              </Button>
+              </Button> */}
               <Button
                 color="grey5"
                 as="a"
